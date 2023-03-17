@@ -4,20 +4,22 @@
     "description": "Tilda Design System",
     "main": "index.js",
     "scripts": {
-      "dev": "nodemon -e scss -x \"npm run build\"",
-      "build:compress": "sass scss/main.scss dist/tds.min.css --style compressed",
-      "build": "sass scss/main.scss dist/tds.css",
-      "package-version": "echo $npm_package_version"
+        "dev": "nodemon -e scss -x \"npm run build\"",
+        "build:compress": "sass scss/main.scss dist/tds.min.css --style compressed",
+        "build": "sass scss/main.scss dist/tds.css",
+        "package-version": "echo $npm_package_version"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/aimfreet/tilda-components.git"
+        "type": "git",
+        "url": "https://github.com/aimfreet/tilda-components.git"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "nodemon": "^2.0.2"
+        "nodemon": "^2.0.2"
     },
     "devDependencies": {
+        "sass": "^1.45.0",
+        "style-dictionary": "^3.7.2"
     }
-  }
+}
