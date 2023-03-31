@@ -4,22 +4,28 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 17 Mar 2023 16:20:27 GMT
+// Generated on Mon, 20 Mar 2023 13:56:26 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryEnum {
-    public static let colorBaseGrayDark = UIColor(red: 0.067, green: 0.067, blue: 0.067, alpha: 1)
-    public static let colorBaseGrayLight = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
-    public static let colorBaseGrayMedium = UIColor(red: 0.600, green: 0.600, blue: 0.600, alpha: 1)
-    public static let colorBaseGreen = UIColor(red: 0.000, green: 1.000, blue: 0.000, alpha: 1)
-    public static let colorBaseRed = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1)
-    public static let colorFontBase = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1)
-    public static let colorFontSecondary = UIColor(red: 0.000, green: 1.000, blue: 0.000, alpha: 1)
-    public static let colorFontTertiary = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
-    public static let sizeFontBase = CGFloat(16.00) /* the base size of the font */
-    public static let sizeFontLarge = CGFloat(32.00) /* the large size of the font */
-    public static let sizeFontMedium = CGFloat(16.00) /* the medium size of the font */
-    public static let sizeFontSmall = CGFloat(12.00) /* the small size of the font */
+    public static let darkBaseColorBorder = [object Object]
+    public static let darkBaseColorPageCanvasBg = core.color.black.80
+    public static let darkBaseColorPageCanvasFg = white
+    public static let globalBlack = #000000
+    public static let globalCoreColorBlack100 = #000000
+    public static let globalCoreColorBlack80 = #333333
+    public static let globalCoreColorBlack90 = #1A1A1A
+    public static let globalCoreSpace0 = 0
+    public static let globalCoreSpace16 = 16
+    public static let globalCoreSpace2 = 2
+    public static let globalCoreSpace24 = 24
+    public static let globalCoreSpace32 = 32
+    public static let globalCoreSpace4 = 4
+    public static let globalCoreSpace8 = 8
+    public static let globalCoreSpaceAuto = Auto
+    public static let globalWhite = #FFFFFF
+    public static let lightBaseColorPageCanvasBg = white
+    public static let lightBaseColorPageCanvasFg = core.color.black.100
 }

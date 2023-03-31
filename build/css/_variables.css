@@ -1,0 +1,25 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 20 Mar 2023 17:00:27 GMT
+ */
+
+:root {
+  --global-white: #FFFFFF;
+  --global-black: #000000;
+  --global-core-space-0: 0;
+  --global-core-space-2: 2;
+  --global-core-space-4: 4;
+  --global-core-space-8: 8;
+  --global-core-space-16: 16;
+  --global-core-space-24: 24;
+  --global-core-space-32: 32;
+  --global-core-space-auto: Auto;
+  --global-core-color-black-80: #333333;
+  --global-core-color-black-90: #1A1A1A;
+  --global-core-color-black-100: #000000;
+  --light-base-color-page-canvas-bg: white;
+  --light-base-color-page-canvas-fg: core.color.black.100;
+  --dark-base-color-page-canvas-bg: core.color.black.80;
+  --dark-base-color-page-canvas-fg: white;
+  --dark-base-color-border: [object Object];
+}
