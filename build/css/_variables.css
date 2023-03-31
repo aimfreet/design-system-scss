@@ -1,25 +1,27 @@
 /**
  * Do not edit directly
- * Generated on Mon, 20 Mar 2023 17:00:27 GMT
+ * Generated on Fri, 31 Mar 2023 15:32:17 GMT
  */
 
 :root {
-  --global-white: #FFFFFF;
-  --global-black: #000000;
-  --global-core-space-0: 0;
-  --global-core-space-2: 2;
-  --global-core-space-4: 4;
-  --global-core-space-8: 8;
-  --global-core-space-16: 16;
-  --global-core-space-24: 24;
-  --global-core-space-32: 32;
-  --global-core-space-auto: Auto;
-  --global-core-color-black-80: #333333;
-  --global-core-color-black-90: #1A1A1A;
-  --global-core-color-black-100: #000000;
-  --light-base-color-page-canvas-bg: white;
-  --light-base-color-page-canvas-fg: core.color.black.100;
-  --dark-base-color-page-canvas-bg: core.color.black.80;
-  --dark-base-color-page-canvas-fg: white;
-  --dark-base-color-border: [object Object];
+  --base-color-page-canvas-bg: core.color.black.80;
+  --base-color-page-canvas-fg: white;
+  --base-color-border: [object Object];
+  --white: #FFFFFF;
+  --black: #000000;
+  --core-space-0: 0;
+  --core-space-2: 2;
+  --core-space-4: 4;
+  --core-space-8: 8;
+  --core-space-16: 16;
+  --core-space-24: 24;
+  --core-space-32: 32;
+  --core-space-auto: Auto;
+  --core-color-black-80: #333333;
+  --core-color-black-90: #1A1A1A;
+  --core-color-black-100: #000000;
+  --core-border-radius-default: 5;
+  --token-set-order-0: global;
+  --token-set-order-1: light;
+  --token-set-order-2: dark;
 }

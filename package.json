@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "nodemon -e scss -x \"npm run build\"",
         "build:compress": "sass scss/main.scss dist/tds.min.css --style compressed",
-        "build": "sass scss/main.scss dist/tds.css",
+        "build": "npx token-transformer tokens/tokens.json output.json && style-dictionary build",
         "package-version": "echo $npm_package_version"
     },
     "repository": {
@@ -16,7 +16,9 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "nodemon": "^2.0.2"
+        "husky": "^8.0.3",
+        "nodemon": "^2.0.2",
+        "token-transformer": "^0.0.32"
     },
     "devDependencies": {
         "sass": "^1.45.0",
