@@ -16,6 +16,16 @@
         "destination": "_variables.css",
         "format": "css/variables"
       }]
+    },
+    "rn": {
+      "transformGroup": "react-native",
+      "buildPath": "src/tokens/build/react-native/",
+      "files": [
+        {
+          "destination": "variables.js",
+          "format": "javascript/es6"
+        }
+      ]
     }
   }
 }

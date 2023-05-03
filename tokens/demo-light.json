@@ -1,0 +1,64 @@
+{
+  "semantic": {
+    "color": {
+      "container": {
+        "canvas": {
+          "bg": {
+            "primary": {
+              "value": "#FDFAF7",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "#E6E6E6",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "selectable": {
+        "primary": {
+          "bg": {
+            "enabled": {
+              "value": "#00513B",
+              "type": "color"
+            },
+            "hover": {
+              "value": "#00412F",
+              "type": "color"
+            }
+          },
+          "text": {
+            "enabled": {
+              "value": "#ffffff",
+              "type": "color"
+            }
+          }
+        },
+        "secondary": {
+          "bg": {
+            "enabled": {
+              "value": "#007956",
+              "type": "color"
+            },
+            "hover": {
+              "value": "#006145",
+              "type": "color"
+            }
+          },
+          "text": {
+            "enabled": {
+              "value": "#ffffff",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "typography": {
+        "heading": {
+          "value": "#181715",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

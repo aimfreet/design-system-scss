@@ -1,0 +1,26 @@
+{
+  "semantic": {
+    "color": {
+      "container": {
+        "canvas": {
+          "bg": {
+            "primary": {
+              "value": "#000806",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "#353535",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "typography": {
+        "heading": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
