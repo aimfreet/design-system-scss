@@ -19,7 +19,7 @@
     },
     "rn": {
       "transformGroup": "react-native",
-      "buildPath": "src/tokens/build/react-native/",
+      "buildPath": "build/react-native/",
       "files": [
         {
           "destination": "variables.js",
