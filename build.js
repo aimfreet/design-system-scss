@@ -9,7 +9,7 @@ StyleDictionaryPackage.registerFormat({
         ${dictionary.allProperties.map(prop => `  --${prop.name}: ${prop.value};`).join('\n')}
       }`
     }
-  });  
+});  
 
 StyleDictionaryPackage.registerTransform({
     name: 'sizes/px',
@@ -22,7 +22,7 @@ StyleDictionaryPackage.registerTransform({
         // You can also modify the value here if you want to convert pixels to ems
         return parseFloat(prop.original.value) + 'px';
     }
-    });
+});
 
 function getStyleDictionaryConfig(theme) {
   return {
