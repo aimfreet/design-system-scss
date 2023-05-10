@@ -1,5 +1,11 @@
+
+
 @media (prefers-color-scheme: light) {
     :root {
-      
+        --semantic-color-container-canvas-bg-primary: #FDFAF7;
+        body {
+            background-color: var(--semantic-color-container-canvas-bg-primary);
+            color: black;
+        }
     }
 }

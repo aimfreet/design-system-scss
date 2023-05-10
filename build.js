@@ -43,7 +43,7 @@ function getStyleDictionaryConfig(theme) {
         "transformGroup": "css",
         "buildPath": "scss/build/css/",
         "files": [{
-            "destination": `${theme}.css`,
+            "destination": `${theme}.scss`,
           "format": "css/variables",
           "selector": ":root"
         }]
