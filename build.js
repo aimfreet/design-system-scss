@@ -32,7 +32,7 @@ function getStyleDictionaryConfig(theme) {
     "platforms": {
       "web": {
         "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        "buildPath": `build/web/`,
+        "buildPath": `scss/build/web/`,
         "files": [{
             "destination": `${theme}.css`,
             "format": "css/variables",
@@ -41,7 +41,7 @@ function getStyleDictionaryConfig(theme) {
       },
       "css": {
         "transformGroup": "css",
-        "buildPath": "build/css/",
+        "buildPath": "scss/build/css/",
         "files": [{
             "destination": `${theme}.css`,
           "format": "css/variables",
@@ -50,7 +50,7 @@ function getStyleDictionaryConfig(theme) {
       },
       "scss": {
         "transformGroup": "scss",
-        "buildPath": "build/scss/",
+        "buildPath": "scss/build/scss/",
         "files": [{
           "destination": `${theme}.scss`,
           "format": "scss/variables",
@@ -59,7 +59,7 @@ function getStyleDictionaryConfig(theme) {
       },
       "rn": {
         "transformGroup": "react-native",
-        "buildPath": "build/react-native/",
+        "buildPath": "scss/build/react-native/",
         "files": [
           {
             "destination": `${theme}.js`,

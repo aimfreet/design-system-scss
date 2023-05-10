@@ -17,3 +17,13 @@
     font-size: inherit;
     line-height: inherit;
   }
+
+  body {
+    font-family: var(--core-font-family-sans);
+    //font-size: $body-font-size;
+    //line-height: $body-line-height;
+    //color: $text-blue;
+    background-color: var(--semantic-color-container-canvas-bg-primary);
+    -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+  }

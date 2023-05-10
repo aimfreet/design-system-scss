@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 May 2023 13:53:43 GMT
+ * Generated on Wed, 10 May 2023 17:05:47 GMT
  */
 
 export const semanticColorContainerCanvasBgPrimary = "#000806";
