@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 04 May 2023 13:01:36 GMT
+ * Generated on Wed, 10 May 2023 13:53:43 GMT
  */
 
 export const coreSpace0 = 0;
@@ -94,10 +94,13 @@ export const coreBorderWidth2 = 2;
 export const coreBorderWidth4 = 4;
 export const coreBorderWidth6 = 6;
 export const coreBorderWidthDefault = 1;
+export const coreFontSize12 = 12;
+export const coreFontSize14 = 14;
 export const coreFontSize16 = 16;
 export const coreFontSize20 = 20;
 export const coreFontSize24 = 24;
 export const coreFontSize28 = 28;
+export const coreFontSize32 = 32;
 export const coreFontFamilySans = "IBM Plex Sans";
 export const coreFontFamilySerif = "IBM Plex Serif";
 export const coreFontWeightRegular = 400;
@@ -118,3 +121,4 @@ export const semanticSpacingSelectableSecondaryPadding = 8;
 export const semanticFontFamilySelectablePrimaryText = "IBM Plex Sans";
 export const semanticFontWeightSelectablePrimaryText = 600;
 export const semanticFontSizeSelectablePrimaryText = 16;
+export const semanticFontSizeTypographyHelpText = 12;

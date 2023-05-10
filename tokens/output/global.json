@@ -385,6 +385,14 @@
       }
     },
     "font-size": {
+      "12": {
+        "value": 12,
+        "type": "fontSizes"
+      },
+      "14": {
+        "value": 14,
+        "type": "fontSizes"
+      },
       "16": {
         "value": 16,
         "type": "fontSizes"
@@ -399,6 +407,10 @@
       },
       "28": {
         "value": 28,
+        "type": "fontSizes"
+      },
+      "32": {
+        "value": 32,
         "type": "fontSizes"
       }
     },
@@ -537,6 +549,12 @@
             "value": 16,
             "type": "fontSizes"
           }
+        }
+      },
+      "typography": {
+        "help-text": {
+          "value": 12,
+          "type": "fontSizes"
         }
       }
     }

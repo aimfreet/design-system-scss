@@ -1,11 +1,11 @@
 .light-theme {
-          --semantic-color-container-canvas-bg-primary: #FDFAF7;
-  --semantic-color-container-canvas-bg-secondary: #E6E6E6;
-  --semantic-color-selectable-primary-bg-enabled: #00513B;
-  --semantic-color-selectable-primary-bg-hover: #00412F;
-  --semantic-color-selectable-primary-text-enabled: #ffffff;
-  --semantic-color-selectable-secondary-bg-enabled: #007956;
-  --semantic-color-selectable-secondary-bg-hover: #006145;
-  --semantic-color-selectable-secondary-text-enabled: #ffffff;
-  --semantic-color-typography-heading: #181715;
+        --semantic-color-container-canvas-bg-primary: #FDFAF7;
+--semantic-color-container-canvas-bg-secondary: #E6E6E6;
+--semantic-color-selectable-primary-bg-enabled: #00513B;
+--semantic-color-selectable-primary-bg-hover: #00412F;
+--semantic-color-selectable-primary-text-enabled: #ffffff;
+--semantic-color-selectable-secondary-bg-enabled: #007956;
+--semantic-color-selectable-secondary-bg-hover: #006145;
+--semantic-color-selectable-secondary-text-enabled: #ffffff;
+--semantic-color-typography-heading: #181715;
       }
