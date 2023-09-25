@@ -1,7 +1,9 @@
 {
   "tokenSetOrder": [
     "global",
-    "light",
-    "dark"
+    "miro/light",
+    "miro/dark",
+    "miller/light",
+    "miller/dark"
   ]
 }

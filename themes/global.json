@@ -317,53 +317,13 @@
           "type": "color"
         }
       },
-      "black": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "white": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "gray": {
-        "10": {
-          "value": "#E6E6E6",
+      "mono": {
+        "black": {
+          "value": "#000000",
           "type": "color"
         },
-        "20": {
-          "value": "#CDCDCD",
-          "type": "color"
-        },
-        "30": {
-          "value": "#B3B3B3",
-          "type": "color"
-        },
-        "40": {
-          "value": "#9A9A9A",
-          "type": "color"
-        },
-        "50": {
-          "value": "#818181",
-          "type": "color"
-        },
-        "60": {
-          "value": "#686868",
-          "type": "color"
-        },
-        "70": {
-          "value": "#4F4F4F",
-          "type": "color"
-        },
-        "80": {
-          "value": "#353535",
-          "type": "color"
-        },
-        "90": {
-          "value": "#1C1C1C",
-          "type": "color"
-        },
-        "00": {
-          "value": "#F3F3F3",
+        "white": {
+          "value": "#ffffff",
           "type": "color"
         }
       }
@@ -408,40 +368,6 @@
         "type": "borderWidth"
       }
     },
-    "font-size": {
-      "12": {
-        "value": "12",
-        "type": "fontSizes"
-      },
-      "14": {
-        "value": "14",
-        "type": "fontSizes"
-      },
-      "16": {
-        "value": "16",
-        "type": "fontSizes"
-      },
-      "20": {
-        "value": "20",
-        "type": "fontSizes"
-      },
-      "24": {
-        "value": "24",
-        "type": "fontSizes"
-      },
-      "28": {
-        "value": "28",
-        "type": "fontSizes"
-      },
-      "32": {
-        "value": "32",
-        "type": "fontSizes"
-      },
-      "36": {
-        "value": "36",
-        "type": "fontSizes"
-      }
-    },
     "font-family": {
       "sans": {
         "value": "IBM Plex Sans",
@@ -468,6 +394,70 @@
       "bold": {
         "value": "700",
         "type": "fontWeights"
+      }
+    },
+    "font-size": {
+      "display": {
+        "xl": {
+          "value": "96",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "64",
+          "type": "fontSizes"
+        },
+        "md": {
+          "value": "48",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "40",
+          "type": "fontSizes"
+        }
+      },
+      "heading": {
+        "xxxl": {
+          "value": "96",
+          "type": "fontSizes"
+        },
+        "xxl": {
+          "value": "64",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "48",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "36",
+          "type": "fontSizes"
+        },
+        "md": {
+          "value": "32",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "24",
+          "type": "fontSizes"
+        }
+      },
+      "body": {
+        "xl": {
+          "value": "24",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "20",
+          "type": "fontSizes"
+        },
+        "md": {
+          "value": "16",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "14",
+          "type": "fontSizes"
+        }
       }
     }
   }
