@@ -1,0 +1,14 @@
+{
+  "core": {
+    "font-family": {
+      "serif": {
+        "value": "Merriweather",
+        "type": "fontFamilies"
+      },
+      "sans": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      }
+    }
+  }
+}

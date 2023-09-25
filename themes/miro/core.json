@@ -1,0 +1,14 @@
+{
+  "core": {
+    "font-family": {
+      "sans": {
+        "value": "IBM Plex Sans",
+        "type": "fontFamilies"
+      },
+      "serif": {
+        "value": "IBM Plex Serif",
+        "type": "fontFamilies"
+      }
+    }
+  }
+}

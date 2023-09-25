@@ -3,7 +3,9 @@
     "global",
     "miro/light",
     "miro/dark",
+    "miro/core",
     "miller/light",
-    "miller/dark"
+    "miller/dark",
+    "miller/core"
   ]
 }
