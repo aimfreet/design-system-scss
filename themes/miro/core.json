@@ -9,6 +9,18 @@
         "value": "IBM Plex Serif",
         "type": "fontFamilies"
       }
+    },
+    "type": {
+      "hero": {
+        "large": {
+          "value": {
+            "fontFamily": "{core.font-family.serif}",
+            "fontWeight": "{core.font-weight.bold}",
+            "fontSize": "{core.font-size.display.lg}"
+          },
+          "type": "typography"
+        }
+      }
     }
   }
 }
