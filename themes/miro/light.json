@@ -1,1 +1,22 @@
-{}
+{
+  "mir": {
+    "ui": {
+      "color": {
+        "surface": {
+          "primary": {
+            "value": "{core.color.heirloom-lace.300}",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{core.color.heirloom-lace.600}",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "{core.color.heirloom-lace.200}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
