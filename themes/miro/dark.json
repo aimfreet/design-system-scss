@@ -1,18 +1,36 @@
 {
-  "mir": {
-    "ui": {
-      "color": {
-        "surface": {
-          "primary": {
-            "value": "{core.color.indigo-black.600}",
+  "ui": {
+    "color": {
+      "surface": {
+        "primary": {
+          "value": "{core.color.indigo-black.600}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{core.color.indigo-black.1000}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{core.color.indigo-black.500}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "button": {
+    "color": {
+      "surface": {
+        "primary": {
+          "default": {
+            "value": "{core.color.water-baby.500}",
             "type": "color"
-          },
-          "secondary": {
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "default": {
             "value": "{core.color.indigo-black.1000}",
-            "type": "color"
-          },
-          "tertiary": {
-            "value": "{core.color.indigo-black.500}",
             "type": "color"
           }
         }

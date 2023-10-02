@@ -1,18 +1,36 @@
 {
-  "mir": {
-    "ui": {
-      "color": {
-        "surface": {
-          "primary": {
-            "value": "{core.color.heirloom-lace.300}",
+  "ui": {
+    "color": {
+      "surface": {
+        "primary": {
+          "value": "{core.color.heirloom-lace.300}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{core.color.heirloom-lace.600}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{core.color.heirloom-lace.200}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "button": {
+    "color": {
+      "surface": {
+        "primary": {
+          "default": {
+            "value": "{core.color.fancy-fuchsia.700}",
             "type": "color"
-          },
-          "secondary": {
-            "value": "{core.color.heirloom-lace.600}",
-            "type": "color"
-          },
-          "tertiary": {
-            "value": "{core.color.heirloom-lace.200}",
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "default": {
+            "value": "{core.color.mono.white}",
             "type": "color"
           }
         }

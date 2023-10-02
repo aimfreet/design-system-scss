@@ -625,10 +625,6 @@
       }
     },
     "border-radius": {
-      "default": {
-        "value": "8",
-        "type": "borderRadius"
-      },
       "none": {
         "value": "0",
         "type": "borderRadius"
@@ -639,6 +635,22 @@
       },
       "pill": {
         "value": "50",
+        "type": "borderRadius"
+      },
+      "light": {
+        "value": "2",
+        "type": "borderRadius"
+      },
+      "regular": {
+        "value": "4",
+        "type": "borderRadius"
+      },
+      "medium": {
+        "value": "8",
+        "type": "borderRadius"
+      },
+      "stront": {
+        "value": "16",
         "type": "borderRadius"
       }
     },

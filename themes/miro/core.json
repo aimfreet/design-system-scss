@@ -22,5 +22,15 @@
         }
       }
     }
+  },
+  "button": {
+    "border-radius": {
+      "primary": {
+        "default": {
+          "value": "{core.border-radius.regular}",
+          "type": "borderRadius"
+        }
+      }
+    }
   }
 }

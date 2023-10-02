@@ -1,1 +1,22 @@
-{}
+{
+  "button": {
+    "color": {
+      "surface": {
+        "primary": {
+          "default": {
+            "value": "{core.color.vegan-green.600}",
+            "type": "color"
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "default": {
+            "value": "{core.color.mono.black}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

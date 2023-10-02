@@ -10,5 +10,15 @@
         "type": "fontFamilies"
       }
     }
+  },
+  "button": {
+    "border-radius": {
+      "primary": {
+        "default": {
+          "value": "{core.border-radius.none}",
+          "type": "borderRadius"
+        }
+      }
+    }
   }
 }
