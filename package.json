@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "nodemon -e scss -x \"npm run build\"",
         "build:compress": "sass scss/main.scss dist/tds.min.css --style compressed",
-        "build": "npx token-transformer tokens/tokens.json tokens/output/global.json global && npx token-transformer tokens/tokens.json tokens/output/light.json global,demo-light,theme global && npx token-transformer tokens/tokens.json tokens/output/dark.json global,demo-dark,theme global && node ./build.js",
+        "build": "npx token-transformer themes tokens/output.json core/color core/color && node ./build.cjs",
         "package-version": "echo $npm_package_version"
     },
     "repository": {
