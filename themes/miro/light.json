@@ -24,6 +24,10 @@
           "default": {
             "value": "{core.color.fancy-fuchsia.700}",
             "type": "color"
+          },
+          "hover": {
+            "value": "{core.color.water-baby.700}",
+            "type": "color"
           }
         }
       },
