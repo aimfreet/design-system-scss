@@ -4,51 +4,96 @@ const StyleDictionaryPackage = require('style-dictionary');
 
 StyleDictionaryPackage.registerFormat({
     name: 'css/variables',
-    formatter: function (dictionary) {
-      return `${this.selector} {
+    formatter: function (dictionary, config) {
+        return `${this.selector} {
         ${dictionary.allProperties.map(prop => `--${prop.name}: ${prop.value};`).join('\n')}
-      }`
-    }
-});  
+      }`;
+    },
+});
+
+StyleDictionaryPackage.registerTransform({
+    name: 'sizes/rem',
+    type: 'value',
+    matcher: function (prop) {
+        // You can be more specific here if you only want 'em' units for font sizes
+        return ['fontSize', 'fontSizes'].includes(prop.original.type);
+    },
+    transformer: function (prop) {
+        // You can also modify the value here if you want to convert pixels to ems
+        return parseFloat(prop.original.value) / 16 + 'rem';
+    },
+});
 
 StyleDictionaryPackage.registerTransform({
     name: 'sizes/px',
     type: 'value',
-    matcher: function(prop) {
-        // You can be more specific here if you only want 'em' units for font sizes    
-        return ["fontSize", "spacing", "borderRadius", "borderWidth", "sizing"].includes(prop.attributes.category);
+    matcher: function (prop) {
+        // You can be more specific here if you only want 'em' units for font sizes
+        return ['spacing', 'borderRadius', 'borderWidth', 'lineHeights', 'lineHeight'].includes(
+            prop.original.type
+        );
     },
-    transformer: function(prop) {
+    transformer: function (prop) {
         // You can also modify the value here if you want to convert pixels to ems
         return parseFloat(prop.original.value) + 'px';
-    }
+    },
+});
+
+StyleDictionaryPackage.registerTransform({
+    name: 'sizes/em',
+    type: 'value',
+    matcher: function (prop) {
+        // You can be more specific here if you only want 'em' units for font sizes
+        return ['sizing'].includes(prop.original.type);
+    },
+    transformer: function (prop) {
+        // You can also modify the value here if you want to convert pixels to ems
+        return parseFloat(prop.original.value) + 'em';
+    },
 });
 
 function getStyleDictionaryConfig(theme) {
   return {
-    "source": [
-      `tokens/${theme}.json`,
-    ],
-    "platforms": {
-      "css": {
-        "transformGroup": "css",
-        "buildPath": "scss/build/css/",
-        "files": [{
-            "destination": `${theme}.scss`,
-          "format": "css/variables",
-          "selector": ":root"
-        }]
+      source: [
+        `tokens/${theme}.json`,
+        `tokens/miro/${theme}.json`
+      ],
+      platforms: {
+          css: {
+              transforms: [
+                  'attribute/cti',
+                  'name/cti/kebab',
+                  'sizes/rem',
+                  'sizes/px',
+                  'sizes/em',
+              ],
+              buildPath: 'variables/css/',
+              files: [
+                  {
+                      destination: `${theme}.scss`,
+                      format: 'css/variables',
+                      selector: ':root',
+                  },
+              ],
+          },
+          scss: {
+              transforms: [
+                  'attribute/cti',
+                  'name/cti/kebab',
+                  'sizes/rem',
+                  'sizes/px',
+                  'sizes/em',
+              ],
+              buildPath: 'variables/scss/',
+              files: [
+                  {
+                      destination: `${theme}.scss`,
+                      format: 'scss/variables',
+                      selector: `.${theme}-theme`,
+                  },
+              ],
+          },
       },
-      "scss": {
-        "transformGroup": "scss",
-        "buildPath": "scss/build/scss/",
-        "files": [{
-          "destination": `${theme}.scss`,
-          "format": "scss/variables",
-          "selector": `.${theme}-theme`
-        }]
-      }
-    }
   };
 }
 
@@ -56,8 +101,7 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['global'].map(function (theme) {
-
+['global', 'dark', 'light', 'core'].map(function (theme) {
     console.log('\n==============================================');
     console.log(`\nProcessing: [${theme}]`);
 
@@ -67,7 +111,7 @@ console.log('Build started...');
     StyleDictionary.buildPlatform('scss');
 
     console.log('\nEnd processing');
-})
+});
 
 console.log('\n==============================================');
 console.log('\nBuild completed!');
