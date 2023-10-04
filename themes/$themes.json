@@ -4,7 +4,6 @@
     "name": "value",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "global": "source",
       "miro/core": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:858:146",
