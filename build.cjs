@@ -101,7 +101,7 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['global', 'dark', 'light', 'core'].map(function (theme) {
+['global', 'miro-dark', 'miro-light', 'core'].map(function (theme) {
     console.log('\n==============================================');
     console.log(`\nProcessing: [${theme}]`);
 

@@ -1,0 +1,40 @@
+{
+  "ui": {
+    "color": {
+      "surface": {
+        "primary": {
+          "value": "#002e50",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "#001524",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "#2e5470",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "button": {
+    "color": {
+      "surface": {
+        "primary": {
+          "default": {
+            "value": "#7bc3d1",
+            "type": "color"
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "default": {
+            "value": "#001524",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

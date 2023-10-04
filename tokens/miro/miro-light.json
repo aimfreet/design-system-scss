@@ -1,0 +1,44 @@
+{
+  "ui": {
+    "color": {
+      "surface": {
+        "primary": {
+          "value": "#fbf3ed",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "#f6e4d6",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "#fdf9f5",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "button": {
+    "color": {
+      "surface": {
+        "primary": {
+          "default": {
+            "value": "#d50173",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#509ba9",
+            "type": "color"
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "default": {
+            "value": "#ffffff",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
